@@ -1,6 +1,6 @@
 languageCode = "ru-ru"
 title = "n-light"
-baseURL = "http://example.org/"
+baseURL = "http://n-light.by"
 theme = "hugo-creative-theme"
 
 [params]
