@@ -41,14 +41,16 @@ theme = "hugo-creative-theme"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Конструктор-светотехник"
-		subtitle   = "Коротко о себе и услугах"
+		subtitle = " "
 		buttonText = "Подробнее"
 
 
 	# About section
 	[params.about]
-		headline    = "Тут Вы найдете все, что вам нужно!"
-		description = "Более развернуто о себе"
+		headline    = "Обо мне"
+
+		description = "<p>Конструированием осветительного оборудования занимаюсь с 1984 года и по настоящее время. За это время разработано значительное количество светильников с разными источниками света (лампы накаливания общего и специального назначения, люминесцентные лампы, газоразрядные лампы высокого давления, светодиоды), различного назначения (для наружного освещения, освещения производственных, торговых, офисных и жилых помещений, транспортных средств), для различных условий окружающей среды.</p><p>Осведомлен о последних инновационных разработках в данной области, так как тесно сотрудничаю с компанией Vossloh-Schwabe (Германия) - поставщиком комплектующих к светильникам.  Имею опыт в разработке осветительных опор, металлических конструкций для рекламы, пластиковой тары, оснастки для литьевого производства.</p><p>Разрабатываю технические условия на товары народного потребления, сопроводительную документацию (паспорта, инструкции по эксплуатации, технические описания, технические задания).</p><p>Надеюсь мои знания и опыт помогут развить Ваш бизнес в сфере производства осветительного оборудования, металлических конструкций, пластиковой тары и других товаров народного потребления.</p>"
+
 		buttonText  = "Услуги"
 
 
@@ -81,19 +83,19 @@ theme = "hugo-creative-theme"
         buttonText = "Close"
 
     # Aside section
-	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
-
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+	#[params.aside]
+	#	headline = "Get the Creative Theme for Hugo"
+	#
+	#	[params.aside.button]
+	#		text = "Download now"
+	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
-		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		headline = "Контакты"
+		description = "Свяжитесь со мной"
 		phone = "+375(29) 379-51-81"
-		email = "feedback@startbootstrap.com"
+		email = "bobs59@mail.ru"
 
 	# Google Maps section
 	# [params.location]
