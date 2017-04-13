@@ -23,7 +23,7 @@ theme = "hugo-creative-theme"
 	description = "Your description"
 
 	# The path must be relative to the static folder
-	favicon = "bulb.png"
+	favicon = "light-bulb-brush.png"
 
 
 	# Navigation
