@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Helvetica','Tahoma',Arial,sans-serif;
 }
 
 hr {
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Helvetica','Tahoma',Arial,sans-serif;
 }
 
 p {
