@@ -22,6 +22,7 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="http://n-light.by/css/creative.css" type="text/css">
 <link rel="stylesheet" href="http://n-light.by/css/modals.css" type="text/css">
+<link rel="stylesheet" href="http://n-light.by/css/lightbox.css" type="text/css">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -145,7 +146,8 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
-                    <h3>Разработка конструкторской и сопроводительной документации</h3>
+                    
+                        <h3>Разработка конструкторской и сопроводительной документации</h3>
                     
                 </div>
             </div>
@@ -153,7 +155,10 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-pencil-square wow bounceIn text-primary"></i>
-                    <h3>Изготовление чертежей</h3>
+                    
+                        <a href="#blueprints" class="portfolio-box portfolio-link" data-toggle="modal">
+                            <h3>Изготовление чертежей</h3>
+                        </a>
                     
                 </div>
             </div>
@@ -161,7 +166,8 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-cube wow bounceIn text-primary"></i>
-                    <h3>3D моделирование</h3>
+                    
+                        <h3>3D моделирование</h3>
                     
                 </div>
             </div>
@@ -169,13 +175,15 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="fa fa-4x fa-globe wow bounceIn text-primary"></i>
-                    <h3>Технический перевод</h3>
+                    
+                        <h3>Технический перевод</h3>
                     
                 </div>
             </div>
             
         </div>
     </div>
+    <br>
     <div class="text-center">
         
             <a href="#contact" class="btn btn-primary btn-xl page-scroll">Контакты</a>
@@ -235,6 +243,59 @@
 
         
 
+        <!-- Portfolio Modals -->
+<style type="text/css">
+    .test {
+        background-color: red
+    }
+</style>
+<div class="portfolio-modal modal fade" id="blueprints" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Изготовление чертежей</h2>
+                        <br>
+                        <div class="text text-left">
+                            <p>
+                            <ul>
+                                <li>Изготовление чертежей по эскизам</li>
+                                <li>Изготовление чертежей по готовым деталям</li>
+                                <li>Векторизация чертежей</li>
+                                <li>Чертежи для студентов</li>
+                                <li>Чертежные работы по техническому заданию</li>
+                                <li>Проверка и доработка чертежей</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <br>
+                        <div>
+                        <p>Пример готового изделия и его чертеж</p>
+                            <a href="img/services/blueprints/product-1.jpg" data-lightbox="image-1" data-title="Чертеж">
+                                <img src="img/services/blueprints/product-1.jpg" class="img-box" alt="">
+                            </a>
+                            <a href="img/services/blueprints/product-2.jpg" data-lightbox="image-1" data-title="Чертеж">
+                                <img src="img/services/blueprints/product-2.jpg" class="img-box" alt="">
+                            </a>
+                            <a href="img/services/blueprints/blueprint-1.png" data-lightbox="image-1" data-title="Чертеж">
+                                <img src="img/services/blueprints/blueprint-thumbnail-1.png" class="img-box" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
         <!-- jQuery -->
 <script src="http://n-light.by/js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
@@ -246,6 +307,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="http://n-light.by/js/creative.js"></script>
+<script src="http://n-light.by/js/lightbox.js"></script>
 
 
         
