@@ -450,7 +450,7 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Helvetica','Tahoma',Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -483,6 +483,14 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.img-box {
+    max-width: 150px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #ff8f00;
+    border-width: 5px;
 }
 
 body {

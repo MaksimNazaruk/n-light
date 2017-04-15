@@ -65,6 +65,7 @@ theme = "hugo-creative-theme"
         [[params.services.list]]
 			icon = "fa-pencil-square"
 			title = "Изготовление чертежей"
+			modalId = "blueprints"
 
 		[[params.services.list]]
             icon = "fa-cube"
