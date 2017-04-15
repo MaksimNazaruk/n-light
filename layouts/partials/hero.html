@@ -3,6 +3,7 @@
     <div class="header-content">
         <div class="header-content-inner">
             <img src="img/light-bulb-brush.png">
+            <br><br>
             {{ with .Site.Params.hero.slogan }}
                 <h1>{{ . | markdownify  }}</h1>
             {{ end }}
@@ -12,6 +13,7 @@
             {{ with .Site.Params.hero.subtitle }}
                 <p>{{ . | markdownify }}</p>
             {{ end }}
+            <br>
             {{ with .Site.Params.hero.buttonText }}
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
             {{ end }}

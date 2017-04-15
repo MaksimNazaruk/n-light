@@ -25,4 +25,9 @@
             {{ end }}
         </div>
     </div>
+    <div class="text-center">
+        {{ with .Site.Params.services.buttonText }}
+            <a href="#contact" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+        {{ end }}
+    </div>
 </section>
