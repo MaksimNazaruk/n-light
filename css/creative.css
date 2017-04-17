@@ -45,6 +45,10 @@ a:focus {
     color: rgb(52, 52, 52);
 }
 
+#contact a {
+    color: #fff;
+}
+
 h1,
 h2,
 h3,
