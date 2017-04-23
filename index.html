@@ -63,6 +63,10 @@
                     </li>
                 
                 
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Мои работы</a>
+                    </li>
+                
                 
                 
                     <li>
@@ -150,7 +154,9 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
                     
-                        <h3>Разработка конструкторской и сопроводительной документации</h3>
+                        <a href="#service1" class="sevice-box portfolio-link" data-toggle="modal">
+                            <h3>Разработка конструкторской документации</h3>
+                        </a>
                     
                 </div>
             </div>
@@ -159,7 +165,7 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-pencil-square wow bounceIn text-primary"></i>
                     
-                        <a href="#blueprints" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <a href="#service2" class="sevice-box portfolio-link" data-toggle="modal">
                             <h3>Изготовление чертежей</h3>
                         </a>
                     
@@ -170,7 +176,20 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-cube wow bounceIn text-primary"></i>
                     
-                        <h3>3D моделирование</h3>
+                        <a href="#service3" class="sevice-box portfolio-link" data-toggle="modal">
+                            <h3>3D моделирование</h3>
+                        </a>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-file-text wow bounceIn text-primary"></i>
+                    
+                        <a href="#service4" class="sevice-box portfolio-link" data-toggle="modal">
+                            <h3>Разработка сопроводительной документации</h3>
+                        </a>
                     
                 </div>
             </div>
@@ -179,7 +198,9 @@
                 <div class="service-box">
                     <i class="fa fa-4x fa-globe wow bounceIn text-primary"></i>
                     
-                        <h3>Технический перевод</h3>
+                        <a href="#service5" class="sevice-box portfolio-link" data-toggle="modal">
+                            <h3>Технический перевод</h3>
+                        </a>
                     
                 </div>
             </div>
@@ -189,12 +210,103 @@
     <br>
     <div class="text-center">
         
-            <a href="#contact" class="btn btn-primary btn-xl page-scroll">Контакты</a>
+            <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Мои работы</a>
         
     </div>
 </section>
 
         
+
+        
+            <section class="no-padding" id="portfolio">
+    
+        
+            <h2 class="section-heading text-center">Мои работы</h2>
+            <hr class="primary">
+            <br>
+        
+    
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#portfolioModalproject1" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="img/projects/luminarie-1/luminarie-1.jpg" class="img-responsive" alt="">
+                        
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    
+                                        <div class="project-name">
+                                            Светильник литьевой
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </a>
+                </div>
+            
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#portfolioModalproject2" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="img/projects/bucket/photo-bucket.jpg" class="img-responsive" alt="">
+                        
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    
+                                        <div class="project-name">
+                                            Ведро пластиковое
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </a>
+                </div>
+            
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#portfolioModalproject3" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="img/projects/extrude/extrude.jpg" class="img-responsive" alt="">
+                        
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    
+                                        <div class="project-name">
+                                            Экструзионный профиль
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </a>
+                </div>
+            
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#portfolioModalproject4" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="img/projects/luminarie-2/luminarie-2-thumbnail.jpg" class="img-responsive" alt="">
+                        
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    
+                                        <div class="project-name">
+                                            Люстра ВВЦ
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+    <div class="text-center">
+    <br>
+        
+            <a href="#contact" class="btn btn-primary btn-xl page-scroll">Контакты</a>
+        
+    </div>
+    <br>
+</section>
 
         
 
@@ -245,14 +357,9 @@
         
 
         
+            <!-- Portfolio Modals -->
 
-        <!-- Portfolio Modals -->
-<style type="text/css">
-    .test {
-        background-color: red
-    }
-</style>
-<div class="portfolio-modal modal fade" id="blueprints" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModalproject1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -264,33 +371,22 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
-                        <h2>Изготовление чертежей</h2>
-                        <br>
-                        <div class="text text-left">
-                            <p>
-                            <ul>
-                                <li>Изготовление чертежей по эскизам</li>
-                                <li>Изготовление чертежей по готовым деталям</li>
-                                <li>Векторизация чертежей</li>
-                                <li>Чертежи для студентов</li>
-                                <li>Чертежные работы по техническому заданию</li>
-                                <li>Проверка и доработка чертежей</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <br>
-                        <div>
-                        <p>Пример готового изделия и его чертеж</p>
-                            <a href="img/services/blueprints/product-1.jpg" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/product-1.jpg" class="img-box" alt="">
-                            </a>
-                            <a href="img/services/blueprints/product-2.jpg" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/product-2.jpg" class="img-box" alt="">
-                            </a>
-                            <a href="img/services/blueprints/blueprint-1.png" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/blueprint-thumbnail-1.png" class="img-box" alt="">
-                            </a>
-                        </div>
+                        
+                            <h2>Светильник литьевой</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                            <img src="img/projects/luminarie-1/luminarie-1.jpg" class="img-responsive img-centered img-modal-header" alt="">
+                        
+                        
+                            <p>Деталь светильника <br> <a href="img/projects/luminarie-1/luminarie-1-part.jpg" data-lightbox="luminarie-1-image" data-title="Деталь светильника"> <img src="img/projects/luminarie-1/luminarie-1-part.jpg" class="img-box" alt=""> </a> <br> Также Вы можете ознакомиться с <a href="files/projects/luminarie-1/luminarie-1-blueprint.pdf" target="_blank">чертежом</a> представленной детали.</p>
+                        
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
                     </div>
                 </div>
             </div>
@@ -298,6 +394,299 @@
     </div>
 </div>
 
+<div class="portfolio-modal modal fade" id="portfolioModalproject2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Ведро пластиковое</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                            <img src="img/projects/bucket/photo-bucket.jpg" class="img-responsive img-centered img-modal-header" alt="">
+                        
+                        
+                            <p>Вы можете ознакомиться с <a href="files/projects/bucket/blueprint-bucket.pdf" target="_blank">чертежом ведра</a> и <a href="files/projects/bucket/blueprint-bucket-cap.pdf" target="_blank">чертежом крышки</a> для него.</p>
+                        
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModalproject3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Экструзионный профиль</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                            <img src="img/projects/extrude/extrude.jpg" class="img-responsive img-centered img-modal-header" alt="">
+                        
+                        
+                            <p>Также Вы можете ознакомиться с <a href="files/projects/extrude/extrude.pdf" target="_blank">чертежом</a> представленной детали.</p>
+                        
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModalproject4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Люстра ВВЦ</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                            <img src="img/projects/luminarie-2/luminarie-2-thumbnail.jpg" class="img-responsive img-centered img-modal-header" alt="">
+                        
+                        
+                            <p>Фото светильника <br> <br> <a href="img/projects/luminarie-2/luminarie-2-1.jpg" data-lightbox="luminarie-2-image"> <img src="img/projects/luminarie-2/luminarie-2-1.jpg" class="img-box" alt=""> </a> <a href="img/projects/luminarie-2/luminarie-2-2.jpg" data-lightbox="luminarie-2-image"> <img src="img/projects/luminarie-2/luminarie-2-2.jpg" class="img-box" alt=""> </a> <br> Также Вы можете ознакомиться с <a href="files/projects/luminarie-2/luminarie-2.pdf" target="_blank">чертежом</a> каркаса данного светильника.</p>
+                        
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        
+
+        
+            <!-- Portfolio Modals -->
+
+service1
+<div class="portfolio-modal modal fade" id="service1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Разработка конструкторской документации</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                        
+                            <div class="text text-left">
+                                <h3><ul> <li>Конструкторская документация на оборудование и товары народного потребления</li> <li>Реверс-инжиниринг изделий</li> <li>Резроботка деталей по образцу</li> <li>Нестандартные конструкции и механизмы</li> <li>Нестрандартный инструмент</li> </ul>
+</h3>
+                            </div>
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+service2
+<div class="portfolio-modal modal fade" id="service2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Изготовление чертежей</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                        
+                            <div class="text text-left">
+                                <h3><ul> <li>Изготовление чертежей по эскизам</li> <li>Изготовление чертежей по готовым деталям</li> <li>Векторизация чертежей</li> <li>Чертежи для студентов</li> <li>Чертежные работы по техническому заданию</li> <li>Проверка и доработка чертежей</li> </ul>
+</h3>
+                            </div>
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+service3
+<div class="portfolio-modal modal fade" id="service3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>3D моделирование</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                        
+                            <div class="text text-left">
+                                <h3><ul> <li>Отдельные детали и сборки</li> <li>Конструкции и механизмы</li> </ul>
+</h3>
+                            </div>
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+service4
+<div class="portfolio-modal modal fade" id="service4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Разработка сопроводительной документации</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                        
+                            <div class="text text-left">
+                                <h3><ul> <li>Разработка и регистрация ТУ</li> <li>Паспорта</li> <li>Технические описания</li> <li>Руководства (инструкции по эксплуатации)</li> <li>Описание сборки изделий и их монтажа</li> </ul>
+</h3>
+                            </div>
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+service5
+<div class="portfolio-modal modal fade" id="service5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        
+                            <h2>Технический перевод</h2>
+                        
+                        
+                            <hr class="star-primary">
+                        
+                        
+                        
+                            <div class="text text-left">
+                                <h3><ul> <li>С английского на русский</li> <li>С английского на украинский</li> <li>С русского на украинский</li> <li>С украинского на русский</li> <li>С польского на русский</li> <li>С польского на украинский</li> </ul>
+</h3>
+                            </div>
+                        
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        
 
         <!-- jQuery -->
 <script src="http://n-light.by/js/jquery.js"></script>

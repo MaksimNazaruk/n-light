@@ -271,11 +271,18 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-.portfolio-box {
+.sevice-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 640px;
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -495,6 +502,10 @@ img::-moz-selection {
     border-radius: 15px;
     border-color: #ff8f00;
     border-width: 5px;
+}
+
+.img-modal-header {
+    max-height: 400px;
 }
 
 body {
