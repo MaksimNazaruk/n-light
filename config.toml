@@ -76,12 +76,16 @@ theme = "hugo-creative-theme"
             icon = "fa-globe"
             title = "Технический перевод"
 
+    # Portfolio
+    [params.portfolio]
+    	headline = "Мои работы"
+
     # Portfolio modals
 	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+        client = "Клиент"
+        date = "Дата"
+        category = "Категория"
+        buttonText = "Закрыть"
 
     # Aside section
 	#[params.aside]
