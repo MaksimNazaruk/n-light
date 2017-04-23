@@ -497,6 +497,10 @@ img::-moz-selection {
     border-width: 5px;
 }
 
+.img-modal-header {
+    max-height: 400px;
+}
+
 body {
     webkit-tap-highlight-color: #222;
 }
