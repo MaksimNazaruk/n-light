@@ -1,0 +1,14 @@
+modalID: project4
+title: Люстра ВВЦ
+img: luminarie-2/luminarie-2-thumbnail.jpg
+description:
+ Фото светильника
+ <br>
+ <a href="img/projects/luminarie-2/luminarie-2-1.jpg" data-lightbox="luminarie-2-image">
+ <img src="img/projects/luminarie-2/luminarie-2-1.jpg" class="img-box" alt="">
+ </a>
+ <a href="img/projects/luminarie-2/luminarie-2-2.jpg" data-lightbox="luminarie-2-image">
+ <img src="img/projects/luminarie-2/luminarie-2-2.jpg" class="img-box" alt="">
+ </a>
+ <br>
+ Также Вы можете ознакомиться с <a href="files/projects/luminarie-2/luminarie-2.pdf" target="_blank">чертежом</a> каркаса данного светильника.

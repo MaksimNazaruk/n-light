@@ -25,19 +25,9 @@
                             </ul>
                             </p>
                         </div>
-                        <br>
-                        <div>
-                        <p>Пример готового изделия и его чертеж</p>
-                            <a href="img/services/blueprints/product-1.jpg" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/product-1.jpg" class="img-box" alt="">
-                            </a>
-                            <a href="img/services/blueprints/product-2.jpg" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/product-2.jpg" class="img-box" alt="">
-                            </a>
-                            <a href="img/services/blueprints/blueprint-1.png" data-lightbox="image-1" data-title="Чертеж">
-                                <img src="img/services/blueprints/blueprint-thumbnail-1.png" class="img-box" alt="">
-                            </a>
-                        </div>
+                        {{ with $.Site.Params.portfolio.modal.buttonText }}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{.}}</button>
+                        {{ end }}
                     </div>
                 </div>
             </div>
