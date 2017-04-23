@@ -45,8 +45,13 @@ a:focus {
     color: rgb(52, 52, 52);
 }
 
-#contact a {
-    color: #fff;
+#portfolio a {
+    color: rgba(52, 52, 52, .7);
+}
+
+#portfolio a:hover,
+#portfolio a:focus {
+    color: rgb(52, 52, 52);
 }
 
 h1,

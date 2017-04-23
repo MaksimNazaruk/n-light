@@ -1,8 +1,10 @@
-<section class="no-padding" id="portfolio">
+<section class="no-padding bg-primary" id="portfolio">
     {{ if .Site.Params.portfolio.headline }}
         {{ with .Site.Params.portfolio.headline }}
+            <br>
+            <br>
             <h2 class="section-heading text-center">{{ . }}</h2>
-            <hr class="primary">
+            <hr class="light">
             <br>
         {{ end }}
     {{ end }}
@@ -29,10 +31,12 @@
         </div>
     </div>
     <div class="text-center">
-    <br>
         {{ with .Site.Params.portfolio.buttonText }}
-            <a href="#contact" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+            <br>
+            <a href="#contact" class="btn btn-default btn-xl page-scroll">{{ . }}</a>
+            <br>
+            <br>
+            <br>
         {{ end }}
     </div>
-    <br>
 </section>
