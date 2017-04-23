@@ -33,7 +33,7 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			about     = "Обо мне"
 			services  = "Услуги"
-			portfolio = "Портфолио"
+			portfolio = "Мои работы"
 			contact   = "Контакты"
 
 
@@ -57,7 +57,7 @@ theme = "hugo-creative-theme"
 	# Service section
 	[params.services]
 		headline = "Предоставляемые услуги"
-		buttonText = "Контакты"
+		buttonText = "Мои работы"
 
         [[params.services.list]]
             icon = "fa-file-text"
@@ -79,6 +79,7 @@ theme = "hugo-creative-theme"
     # Portfolio
     [params.portfolio]
     	headline = "Мои работы"
+    	buttonText = "Контакты"
 
     # Portfolio modals
 	[params.portfolio.modal]

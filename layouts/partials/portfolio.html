@@ -28,4 +28,11 @@
             {{ end }}
         </div>
     </div>
+    <div class="text-center">
+    <br>
+        {{ with .Site.Params.portfolio.buttonText }}
+            <a href="#contact" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+        {{ end }}
+    </div>
+    <br>
 </section>

@@ -40,7 +40,9 @@
             {{ partial "modals.html" . }}
         {{ end }}
 
-        {{ partial "services/blueprints.html" }}
+        {{ if .Site.Data.services }}
+            {{ partial "modal-services.html" . }}
+        {{ end }}
 
         {{ partial "js.html" . }}
 
