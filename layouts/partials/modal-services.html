@@ -24,7 +24,7 @@
                         {{ end }}
                         {{ with .description }}
                             <div class="text text-left">
-                                <p>{{ . | markdownify }}</p>
+                                <h3>{{ . | markdownify }}</h3>
                             </div>
                         {{ end }}
                         {{ with $.Site.Params.portfolio.modal.buttonText }}
