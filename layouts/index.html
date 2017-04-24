@@ -16,7 +16,7 @@
             {{ partial "about.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.services.list }}
+        {{ if .Site.Data.services }}
             {{ partial "services.html" . }}
         {{ end }}
 

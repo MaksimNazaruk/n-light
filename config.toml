@@ -59,23 +59,6 @@ theme = "hugo-creative-theme"
 		headline = "Предоставляемые услуги"
 		buttonText = "Мои работы"
 
-        [[params.services.list]]
-            icon = "fa-file-text"
-            title = "Разработка конструкторской и сопроводительной документации"
-
-        [[params.services.list]]
-			icon = "fa-pencil-square"
-			title = "Изготовление чертежей"
-			modalId = "blueprints"
-
-		[[params.services.list]]
-            icon = "fa-cube"
-            title = "3D моделирование"
-
-        [[params.services.list]]
-            icon = "fa-globe"
-            title = "Технический перевод"
-
     # Portfolio
     [params.portfolio]
     	headline = "Мои работы"
@@ -102,6 +85,7 @@ theme = "hugo-creative-theme"
 		description = "Свяжитесь со мной"
 		phone = "+375(29) 379-51-81"
 		email = "bobs59@mail.ru"
+		legal = "ИП Назарук Богдан Федорович УНП 591346821, свидетельство о госрегистрации № 0569505 от 25.05.2015 г."
 
 	# Google Maps section
 	# [params.location]

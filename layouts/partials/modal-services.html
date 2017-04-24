@@ -1,6 +1,5 @@
 {{ "<!-- Portfolio Modals -->" | safeHTML }}
 {{ range .Site.Data.services }}
-{{ .modalID }}
 <div class="portfolio-modal modal fade" id="{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">

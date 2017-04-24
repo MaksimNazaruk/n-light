@@ -38,5 +38,11 @@
                 </div>
             {{ end }}
         </div>
+        {{ if .Site.Params.contact.legal }}
+            <div class="text-center">
+            <br>
+            {{ .Site.Params.contact.legal }}
+            </div>
+        {{ end }}
     </div>
 </section>
