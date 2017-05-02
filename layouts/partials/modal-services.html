@@ -23,7 +23,7 @@
                         {{ end }}
                         {{ with .description }}
                             <div class="text text-left">
-                                <h3>{{ . | markdownify }}</h3>
+                                {{ . | markdownify }}
                             </div>
                         {{ end }}
                         {{ with $.Site.Params.portfolio.modal.buttonText }}
